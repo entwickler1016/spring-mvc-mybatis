@@ -16,4 +16,8 @@ public class UserService {
     public List<UserVO> selectUserList(){
         return userMapper.selectUserList();
     }
+
+    public int insertUser(UserVO userVO){
+        return userMapper.insertUser(userVO);
+    }
 }
