@@ -15,6 +15,16 @@ mybatis:
   mapper-locations: classpath:sql/*.xml
   config-location: classpath:mybatis-config.xml
 
+springdoc:
+  default-consumes-media-type: application/json;charset=UTF-8
+  default-produces-media-type: application/json;charset=UTF-8
+  swagger-ui:
+    path: /api-docs
+    tryItOutEnabled: true
+    operationsSorter: method
+    tagsSorter: alpha
+    filter: true
+
 logging:
   level:
     org.hibernate.SQL: debug
