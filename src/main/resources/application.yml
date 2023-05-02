@@ -24,8 +24,3 @@ springdoc:
     operationsSorter: method
     tagsSorter: alpha
     filter: true
-
-logging:
-  level:
-    org.hibernate.SQL: debug
-    org.hibernate.type: trace
